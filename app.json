@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "bare-rn-tflite",
+    "slug": "bare-rn-tflite",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
