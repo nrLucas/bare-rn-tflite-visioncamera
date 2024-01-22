@@ -1,4 +1,4 @@
-rootProject.name = 'barerntflite'
+rootProject.name = 'bare-rn-tflite'
 
 dependencyResolutionManagement {
   versionCatalogs {

@@ -1,10 +1,27 @@
 {
-  "expo": {
-    "name": "bare-rn-tflite",
-    "slug": "bare-rn-tflite",
-    "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ]
-  }
+    "expo": {
+        "name": "bare-rn-tflite",
+        "slug": "bare-rn-tflite",
+        "version": "1.0.0",
+        "assetBundlePatterns": ["**/*"],
+        "android": {
+            "package": "com.anonymous.barerntflite"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "2e4b2756-a63e-4f95-858e-bc5f31b69060"
+            }
+        },
+        "plugins": [
+            [
+                "react-native-vision-camera",
+                {
+                    "cameraPermissionText": "$(PRODUCT_NAME) needs access to your Camera.",
+                    "enableMicrophonePermission": true,
+                    "microphonePermissionText": "$(PRODUCT_NAME) needs access to your Microphone."
+                }
+            ]
+        ]
+    }
 }
+

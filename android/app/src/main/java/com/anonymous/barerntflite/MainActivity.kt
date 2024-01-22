@@ -1,4 +1,4 @@
-package com.barerntflite
+package com.anonymous.barerntflite
 
 import android.os.Build
 import android.os.Bundle
